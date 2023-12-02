@@ -7,7 +7,7 @@ This is a simple ToDo app built with React.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/todo-app.git
+    git clone https://github.com/mohamedd2003/Todo-List
     cd todo-app
     ```
 
