@@ -65,10 +65,7 @@ if(textfieldRef.current.value != "")
   };
      
 
-  // const resetForm =()=>
-  // {
-  //   tasks.map(task=>)
-  // }
+
   const [isButtonDisabled, setButtonDisabled] = useState(true);
   useEffect(() => {
       
@@ -130,20 +127,7 @@ if(textfieldRef.current.value != "")
                 {innerHtmlBtn}
               </Button>
             
-             
-             {/* <button type='submit' disabled id='btn'> {innerHtmlBtn}</button>  */}
-              {/* <Button
-                disabled={ !(formik.isValid && formik.dirty)
-                }
-                type='submit'
-                size='medium'
-                sx={{ color: 'primary.light' }}
-                startIcon={<RestartAltIcon />}
-                variant='outlined'
-              // onClick={ }
-              >
-                Reset
-              </Button> */}
+            
             </Box>
           </Box>
           {tasks.map((task, index) =>
