@@ -17,6 +17,7 @@ let todoSlice = createSlice({
     remove: (state, action) => {
       state.tasks.splice(action.payload, 1);
       localStorage.setItem("task", JSON.stringify(state.tasks));
+      state.innerHtmlBtn=initialState.innerHtmlBtn;
     },
     update: (state, action) => {
        let { index,updatedTask } = action.payload;
